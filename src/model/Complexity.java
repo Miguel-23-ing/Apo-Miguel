@@ -1,7 +1,7 @@
 package model;
 
-public enum Complecity{
-  HIGH
-  MEDIUM
+public enum Complexity{
+  HIGH,
+  MEDIUM,
   LOW
 }

@@ -50,6 +50,6 @@ public class Treasure{
             + "\n     Image URL: " + this.url
             + "\n     Score given to the player: " + this.rewarScore
             + "\n     Position X: " + this.positionX
-            + "n\     Position Y: " + this.positionY;
+            + "\n     Position Y: " + this.positionY;
   }
 }

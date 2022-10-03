@@ -5,12 +5,14 @@ public class Player{
   private String name;
   private int score;
   private int liveNumber;
+  private int lvl;
 
-  public Player(String nickName, String name){
+  public Player(String nickName, String name, int score, int liveNumber, int lvl){
     this.nickName = nickName;
     this.name = name;
     this.score = 10;
     this.liveNumber = 5;
+    this.lvl = 1;
   }
   public String getNickName() {
       return this.nickName;
@@ -36,11 +38,18 @@ public class Player{
   public void setLiveNumber(int liveNumber) {
       this.liveNumber = liveNumber;
   }
+  public int getLvl() {
+      return this.lvl;
+  }
+  public void setLvl(int lvl) {
+      this.lvl = lvl;
+  }
   public String toString() {
       return "Player info: "
               + "\n Player's Nickname: " + this.nickName
               + "\n     Player's name: " + this.name
               + "\n     Score: " + this.score
-              + "\n     Number of lives: " + this.liveNumber;
+              + "\n     Number of lives: " + this.liveNumber
+              + "\n     Player's lvl: " + this.lvl;
   }
 }
