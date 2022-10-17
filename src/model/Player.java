@@ -7,13 +7,14 @@ public class Player{
   private int liveNumber;
   private int lvl;
 
-  public Player(String nickName, String name, int score, int liveNumber, int lvl){
+  public Player(String nickName, String name, int liveNumber, int lvl){
     this.nickName = nickName;
     this.name = name;
     this.score = 10;
     this.liveNumber = 5;
-    this.lvl = 1;
+    this.lvl = lvl;
   }
+
   public String getNickName() {
       return this.nickName;
   }

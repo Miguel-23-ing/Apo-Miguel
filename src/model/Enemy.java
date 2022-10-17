@@ -8,7 +8,7 @@ public class Enemy{
   private int positionY;
   private EnemyType type;
 
-  public Enemy(String name, int scoreSubstraction, int scoreAddition, int positionX, int positionY, EnemyType type){
+  public Enemy(String name, int scoreSubstraction, int scoreAddition, int positionX, int positionY, int type){
     this.name = name;
     this.scoreSubstraction = scoreSubstraction;
     this.scoreAddition = scoreAddition;
@@ -53,7 +53,7 @@ public class Enemy{
       this.type = type;
   }
   public String toString() {
-    return "Level info: "
+    return "Enemy info: "
             + "\n    -Enemy name: " + this.name
             + "\n     Score that is subtracted from the player if it is a loss: " + this.scoreSubstraction
             + "\n     Score that is added to the player if he defeats him: " + this.scoreAddition

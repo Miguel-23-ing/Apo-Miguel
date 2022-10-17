@@ -4,5 +4,6 @@ public enum EnemyType{
   OGRE,
   ABSTRACT,
   BOSS,
-  MAGICAL
+  MAGICAL,
+  NULL
 }
