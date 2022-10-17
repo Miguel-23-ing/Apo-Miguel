@@ -77,7 +77,7 @@ public class Level{
     return "\n Level info: "
             + "\n     Level number: " + this.number
             + "\n     Points to go to the next level: " + this.scoreLimit
-            + "\n     Enemigos que se deben vencer: " + this.enemyToDefeat
+            + "\n     Enemies to be defeated: " + this.enemyToDefeat
             + "\n     Treasures to be obtained: " + this.treasureToObtained
             + "\n     Level complexity: " + this.complexity;
   }
